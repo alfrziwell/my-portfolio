@@ -29,29 +29,29 @@ const organizationExperienceData = [
   {
     company: 'Vice Head of Event Committee – Community Service Program',
     position: 'Program Studi Informatika International Women University',
-    period: '28 Juli 2023 | Bandung, Indonesia',
+    period: '14 Agustus 2025 | Bandung, Indonesia',
     description: 'Led community service initiatives and coordinated academic programs.',
     logo: ProdiInformatika
   },
   {
     company: 'Event Division Member',
     position: 'POM Gebyar Nusantara Badan Eksekutif Mahasiswa',
-    period: '28 Juli 2023 | Bandung, Indonesia',
+    period: '18 Juli 2025 | Bandung, Indonesia',
     description: 'Organized student events and cultural activities.',
     logo: BEMIWU
-  },
-  {
-    company: 'Team Creative',
-    position: 'Graduation at SMKN 13 Bandung',
-    period: '28 Juli 2023 | Bandung, Indonesia',
-    description: 'Creative team member for graduation ceremony event.',
-    logo: SMKN13
   },
   {
     company: 'Head of Event Committee',
     position: 'MPLS at SMKN 13 Bandung',
     period: '28 Juli 2023 | Bandung, Indonesia',
     description: 'Coordinated school orientation program and student integration.',
+    logo: SMKN13
+  },
+  {
+    company: 'Team Creative',
+    position: 'Graduation at SMKN 13 Bandung',
+    period: '8 Juli 2023 | Bandung, Indonesia',
+    description: 'Creative team member for graduation ceremony event.',
     logo: SMKN13
   },
   {
@@ -84,8 +84,8 @@ export default function Experience() {
     >
       <div className="flex items-start gap-4 mb-3">
         <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center flex-shrink-0 overflow-hidden group-hover:scale-110 transition duration-300">
-          <img 
-            src={exp.logo} 
+          <img
+            src={exp.logo}
             alt={exp.company}
             className="w-full h-full object-cover"
             onError={(e) => {
