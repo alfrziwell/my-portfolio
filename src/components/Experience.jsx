@@ -6,6 +6,7 @@ import FOKUS from '../assets/img/instansi/fokus.png';
 import ProdiInformatika from '../assets/img/instansi/prodi_informatika.png';
 import BEMIWU from '../assets/img/instansi/bem_iwu.png';
 import SMKN13 from '../assets/img/instansi/smkn13.png';
+import HIMAIF from '../assets/img/instansi/hima_if.png';
 
 // Import or use placeholder logo URLs
 const workExperienceData = [
@@ -26,6 +27,13 @@ const workExperienceData = [
 ];
 
 const organizationExperienceData = [
+  {
+    company: 'Technology Research Division',
+    position: 'HIMA IF Intern',
+    period: 'September 2025 - Desember 2025 | Bandung, Indonesia',
+    description: 'I researched emerging technologies and supported digital solution development.',
+    logo: HIMAIF
+  },
   {
     company: 'Vice Head of Event Committee – Community Service Program',
     position: 'Program Studi Informatika International Women University',
