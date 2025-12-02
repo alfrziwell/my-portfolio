@@ -18,7 +18,7 @@ const workExperienceData = [
   },
   {
     company: 'FIK Telkom University',
-    position: 'Web Development',
+    position: 'Web Developer Intern',
     period: 'Oct 2023 - Mar 2024',
     description: 'Built web applications and worked on university digital initiatives.',
     logo: FIKTelU
