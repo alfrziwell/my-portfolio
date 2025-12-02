@@ -40,8 +40,181 @@ import PublishP3KD3 from '../assets/img/projects/publish-project/p3kd/6-3.png';
 import PublishP3KD4 from '../assets/img/projects/publish-project/p3kd/6-4.png';
 import PublishP3KD5 from '../assets/img/projects/publish-project/p3kd/6-5.png';
 
+// SOWU IMAGES
+import PublishSOWU1 from '../assets/img/projects/publish-project/sowu/1.png';
+import PublishSOWU2 from '../assets/img/projects/publish-project/sowu/2.png';
+import PublishSOWU3 from '../assets/img/projects/publish-project/sowu/3.png';
+import PublishSOWU4 from '../assets/img/projects/publish-project/sowu/4.png';
+import PublishSOWU5 from '../assets/img/projects/publish-project/sowu/5.png';
+import PublishSOWU6 from '../assets/img/projects/publish-project/sowu/6.png';
+import PublishSOWU7 from '../assets/img/projects/publish-project/sowu/7.png';
+
+// MEKARBUD IMAGES
+import PublishMEKARBUD1 from '../assets/img/projects/publish-project/mekarbud/1.png';
+import PublishMEKARBUD2 from '../assets/img/projects/publish-project/mekarbud/2.png';
+import PublishMEKARBUD3 from '../assets/img/projects/publish-project/mekarbud/3.png';
+import PublishMEKARBUD4 from '../assets/img/projects/publish-project/mekarbud/4.png';
+import PublishMEKARBUD5 from '../assets/img/projects/publish-project/mekarbud/5.png';
+import PublishMEKARBUD6 from '../assets/img/projects/publish-project/mekarbud/6.png';
+import PublishMEKARBUD7 from '../assets/img/projects/publish-project/mekarbud/7.png';
+import PublishMEKARBUD8 from '../assets/img/projects/publish-project/mekarbud/8.png';
+import PublishMEKARBUD9 from '../assets/img/projects/publish-project/mekarbud/9.png';
+import PublishMEKARBUD10 from '../assets/img/projects/publish-project/mekarbud/10.png';
+
+// 3TREESIFY IMAGES
+import Publish3TREESIFY1 from '../assets/img/projects/publish-project/3treesify/1.png';
+import Publish3TREESIFY2 from '../assets/img/projects/publish-project/3treesify/2.png';
+import Publish3TREESIFY3 from '../assets/img/projects/publish-project/3treesify/3.png';
+import Publish3TREESIFY4 from '../assets/img/projects/publish-project/3treesify/4.png';
+import Publish3TREESIFY5 from '../assets/img/projects/publish-project/3treesify/5.png';
+import Publish3TREESIFY6 from '../assets/img/projects/publish-project/3treesify/6.png';
+import Publish3TREESIFY7 from '../assets/img/projects/publish-project/3treesify/7.png';
+import Publish3TREESIFY8 from '../assets/img/projects/publish-project/3treesify/8.png';
+
+// TAXONOMY COMPANY PROFILE IMAGES
+import PublishTAXONOMYCOMPANY1 from '../assets/img/projects/publish-project/taxonomy-company/1.png';
+import PublishTAXONOMYCOMPANY2 from '../assets/img/projects/publish-project/taxonomy-company/2.png';
+import PublishTAXONOMYCOMPANY3 from '../assets/img/projects/publish-project/taxonomy-company/3.png';
+
+// TAXONOMY NEWS IMAGES
+import PublishTAXONOMYNEWS1 from '../assets/img/projects/publish-project/taxonomy-news/1.png';
+import PublishTAXONOMYNEWS2 from '../assets/img/projects/publish-project/taxonomy-news/2.png';
+import PublishTAXONOMYNEWS3 from '../assets/img/projects/publish-project/taxonomy-news/3.png';
+import PublishTAXONOMYNEWS4 from '../assets/img/projects/publish-project/taxonomy-news/4.png';
+import PublishTAXONOMYNEWS5 from '../assets/img/projects/publish-project/taxonomy-news/5.png';
+
+// TAXONOMY EDUCATION IMAGES
+import PublishTAXONOMYEDU1 from '../assets/img/projects/publish-project/taxonomy-education/1.png';
+import PublishTAXONOMYEDU2 from '../assets/img/projects/publish-project/taxonomy-education/2.png';
+import PublishTAXONOMYEDU3 from '../assets/img/projects/publish-project/taxonomy-education/3.png';
+import PublishTAXONOMYEDU4 from '../assets/img/projects/publish-project/taxonomy-education/4.png';
+
+// SSO TAXONOMY IMAGES
+import PublishSSOTAXONOMYEDU1 from '../assets/img/projects/publish-project/taxonomy-sso/1.png';
+
+// MULYAJAYA IMAGES
+import PublishMULYAJAYA1 from '../assets/img/projects/publish-project/mulya/1.png';
+import PublishMULYAJAYA2 from '../assets/img/projects/publish-project/mulya/2.png';
+import PublishMULYAJAYA3 from '../assets/img/projects/publish-project/mulya/3.png';
+import PublishMULYAJAYA4 from '../assets/img/projects/publish-project/mulya/4.png';
+import PublishMULYAJAYA5 from '../assets/img/projects/publish-project/mulya/5.png';
 
 const publishedProjectsData = [
+  {
+    title: '3Treesify',
+    description: 'Developed a website for 3Treesify, a blockchain-based conservation platform. The site presents 3Treesify’s mission, environmental initiatives, and facilitates membership engagement and impact reporting.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'Laravel', 'MySQL', 'Rest API', 'Sepolia', 'Metamask', 'Ethers.js'],
+    images: [
+      Publish3TREESIFY1,
+      Publish3TREESIFY2,
+      Publish3TREESIFY3,
+      Publish3TREESIFY4,
+      Publish3TREESIFY5,
+      Publish3TREESIFY6,
+      Publish3TREESIFY7,
+      Publish3TREESIFY8
+    ],
+    type: 'Web App',
+    link: 'https://3treesify.netlify.app/'
+  },
+  {
+    title: 'MEKAR BUDAYA',
+    description: 'Developed a website for Mekar Budaya, a cultural and arts community organization. The website functions to introduce Mekar Budaya’s mission, showcase cultural events and activities, and serve as an information and update hub for members and supporters.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'Rest API', 'Laravel', 'MySQL'],
+    images: [
+      PublishMEKARBUD1,
+      PublishMEKARBUD2,
+      PublishMEKARBUD3,
+      PublishMEKARBUD4,
+      PublishMEKARBUD5,
+      PublishMEKARBUD6,
+      PublishMEKARBUD7,
+      PublishMEKARBUD8,
+      PublishMEKARBUD9,
+      PublishMEKARBUD10
+    ],
+    type: 'Web App',
+    link: 'https://mekar-budaya.com/'
+  },
+  {
+    title: 'Sound Of IWU',
+    description: 'Developed an introduction and onboarding website for SOWU (Sound of IWU), the university choir organization.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'EmailJS', 'Laravel', 'MySQL', 'Rest API'],
+    images: [
+      PublishSOWU1,
+      PublishSOWU2,
+      PublishSOWU3,
+      PublishSOWU4,
+      PublishSOWU5,
+      PublishSOWU6,
+      PublishSOWU7
+    ],
+    type: 'Web App',
+    link: 'https://soundofiwu.com/'
+  },
+  {
+    title: 'Mulyajaya Network Group Website',
+    description: 'Built the website for Mulya Jaya Network Group, a corporate/business group. The site serves to introduce the company profile, services, and contact information for clients and partners.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'Laravel', 'MySQL', 'Rest API'],
+    images: [
+      PublishMULYAJAYA1,
+      PublishMULYAJAYA2,
+      PublishMULYAJAYA3,
+      PublishMULYAJAYA4,
+      PublishMULYAJAYA5
+    ],
+    type: 'Web App',
+    link: 'https://www.mulyajayanetworkgroup.com/'
+  },
+  {
+    title: 'SSO LOGIN - All Taxonomy Platform',
+    description: 'Developed the SSO portal for Taxonomy.id — enabling unified authentication for multiple sub-domains and services (e.g. website, news, education) under the Taxonomy.id ecosystem, ensuring seamless login and access across all related platforms.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'Laravel', 'MySQL', 'Rest API', 'SSO'],
+    images: [
+      PublishSSOTAXONOMYEDU1
+    ],
+    type: 'Web App',
+    link: 'https://sso.taxonomy.id/'
+  },
+  {
+    title: 'Taxonomy Education Platform',
+    description: 'Developed an educational sub-site for Taxonomy.id, focused on learning materials and educational articles about tax, investment, and financial literacy. A resource hub for learners and investors.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'Laravel', 'MySQL', 'Rest API', 'SSO'],
+    images: [
+      PublishTAXONOMYEDU1,
+      PublishTAXONOMYEDU2,
+      PublishTAXONOMYEDU3,
+      PublishTAXONOMYEDU4
+    ],
+    type: 'Web App',
+    link: 'https://edukasi.taxonomy.id/'
+  },
+  {
+    title: 'Taxonomy News Platform',
+    description: 'Created a news portal under Taxonomy.id, designed to deliver up-to-date content about taxation, finance, and investment. Acts as a news & update center for site’s audience.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'Laravel', 'MySQL', 'Rest API', 'SSO'],
+    images: [
+      PublishTAXONOMYNEWS1,
+      PublishTAXONOMYNEWS2,
+      PublishTAXONOMYNEWS3,
+      PublishTAXONOMYNEWS4,
+      PublishTAXONOMYNEWS5
+    ],
+    type: 'Web App',
+    link: 'https://news.taxonomy.id/'
+  },
+  {
+    title: 'Taxonomy Company Profile',
+    description: 'Built a web platform for Taxonomy.id, an Indonesian education hub on taxes and investment. The site offers learning resources, guides, and information for users interested in finance and taxation.',
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Framer Motion', 'Laravel', 'MySQL', 'Rest API', 'SSO'],
+    images: [
+      PublishTAXONOMYCOMPANY1,
+      PublishTAXONOMYCOMPANY2,
+      PublishTAXONOMYCOMPANY3,
+    ],
+    type: 'Web App',
+    link: 'https://taxonomy.id/'
+  },
   {
     title: 'Development Web IFIK',
     description: 'Create an IFIK Landing Page display with modern design and responsive layout.',
@@ -140,7 +313,7 @@ export default function Projects() {
           {/* Header */}
           <div className="flex justify-between items-center p-4 border-b">
             <h3 className="text-lg font-bold text-gray-900">{project.title}</h3>
-            <button 
+            <button
               onClick={onClose}
               className="p-2 hover:bg-gray-100 rounded-lg transition duration-300"
             >
@@ -150,8 +323,8 @@ export default function Projects() {
 
           {/* Image Viewer */}
           <div className="flex-1 flex flex-col items-center justify-center p-6 bg-gray-50">
-            <img 
-              src={currentImage} 
+            <img
+              src={currentImage}
               alt={`${project.title} - Image ${currentImageIndex + 1}`}
               className="max-w-full max-h-[60vh] object-contain"
             />
@@ -159,7 +332,7 @@ export default function Projects() {
 
           {/* Controls */}
           <div className="flex items-center justify-between p-4 border-t bg-white">
-            <button 
+            <button
               onClick={handlePrev}
               disabled={images.length === 1}
               className="p-2 hover:bg-gray-100 rounded-lg transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
@@ -177,15 +350,14 @@ export default function Projects() {
                   <button
                     key={index}
                     onClick={() => setCurrentImageIndex(index)}
-                    className={`w-2 h-2 rounded-full transition duration-300 ${
-                      index === currentImageIndex ? 'bg-blue-600 w-6' : 'bg-gray-300 hover:bg-gray-400'
-                    }`}
+                    className={`w-2 h-2 rounded-full transition duration-300 ${index === currentImageIndex ? 'bg-blue-600 w-6' : 'bg-gray-300 hover:bg-gray-400'
+                      }`}
                   />
                 ))}
               </div>
             </div>
 
-            <button 
+            <button
               onClick={handleNext}
               disabled={images.length === 1}
               className="p-2 hover:bg-gray-100 rounded-lg transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
@@ -203,15 +375,15 @@ export default function Projects() {
       className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 flex flex-col"
     >
       {/* Project Image */}
-      <div 
+      <div
         onClick={() => {
           setSelectedProject(project);
           setCurrentImageIndex(0);
         }}
         className="h-48 bg-gray-200 flex items-center justify-center overflow-hidden cursor-pointer group relative"
       >
-        <img 
-          src={project.images[0]} 
+        <img
+          src={project.images[0]}
           alt={project.title}
           className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
         />
@@ -241,9 +413,9 @@ export default function Projects() {
 
         {/* Action Button */}
         {isPublished ? (
-          <a 
-            href={project.link} 
-            target="_blank" 
+          <a
+            href={project.link}
+            target="_blank"
             rel="noopener noreferrer"
             className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 rounded-lg font-semibold hover:shadow-lg transition duration-300 flex items-center justify-center gap-2"
           >
