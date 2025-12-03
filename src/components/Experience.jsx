@@ -30,42 +30,42 @@ const organizationExperienceData = [
   {
     company: 'Technology Research Division',
     position: 'HIMA IF Intern',
-    period: 'September 2025 - Desember 2025 | Bandung, Indonesia',
+    period: 'Sep 2025 - Dec 2025 | Bandung, Indonesia',
     description: 'I researched emerging technologies and supported digital solution development.',
     logo: HIMAIF
   },
   {
     company: 'Vice Head of Event Committee – Community Service Program',
     position: 'Informatics Study Program, International Women University',
-    period: '14 Agustus 2025 | Bandung, Indonesia',
+    period: '14 Aug 2025 | Bandung, Indonesia',
     description: 'Led community service initiatives and coordinated academic programs.',
     logo: ProdiInformatika
   },
   {
     company: 'Event Division Member',
     position: 'POM Gebyar Nusantara Event, organized by the Student Executive Board',
-    period: '18 Juli 2025 | Bandung, Indonesia',
+    period: '18 Jul 2025 | Bandung, Indonesia',
     description: 'Organized student events and cultural activities.',
     logo: BEMIWU
   },
   {
     company: 'Head of Event Committee',
     position: 'MPLS at SMKN 13 Bandung',
-    period: '28 Juli 2023 | Bandung, Indonesia',
+    period: '28 Jul 2023 | Bandung, Indonesia',
     description: 'Coordinated school orientation program and student integration.',
     logo: SMKN13
   },
   {
     company: 'Team Creative',
     position: 'Graduation at SMKN 13 Bandung',
-    period: '8 Juli 2023 | Bandung, Indonesia',
+    period: '8 Jul 2023 | Bandung, Indonesia',
     description: 'Creative team member for graduation ceremony event.',
     logo: SMKN13
   },
   {
     company: 'Lead Coordinator',
     position: 'Pentas Seni SMKN 13 X SMKN 9 Bandung',
-    period: '21 Juni 2023 | Bandung, Indonesia',
+    period: '21 Jun 2023 | Bandung, Indonesia',
     description: 'Responsible for organizing inter-school arts performance event.',
     logo: OSIS13
   },
