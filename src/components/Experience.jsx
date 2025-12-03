@@ -36,14 +36,14 @@ const organizationExperienceData = [
   },
   {
     company: 'Vice Head of Event Committee – Community Service Program',
-    position: 'Program Studi Informatika International Women University',
+    position: 'Informatics Study Program, International Women University',
     period: '14 Agustus 2025 | Bandung, Indonesia',
     description: 'Led community service initiatives and coordinated academic programs.',
     logo: ProdiInformatika
   },
   {
     company: 'Event Division Member',
-    position: 'POM Gebyar Nusantara Badan Eksekutif Mahasiswa',
+    position: 'POM Gebyar Nusantara Event, organized by the Student Executive Board',
     period: '18 Juli 2025 | Bandung, Indonesia',
     description: 'Organized student events and cultural activities.',
     logo: BEMIWU
@@ -70,15 +70,15 @@ const organizationExperienceData = [
     logo: OSIS13
   },
   {
-    company: 'Forum Komunikasi Siswa Kota Bandung',
-    position: 'Interest and Talent Division',
+    company: 'Interest and Talent Division',
+    position: 'Forum Komunikasi Siswa Kota Bandung',
     period: 'Apr 2022 - Nov 2023',
     description: 'Managed interest and talent division activities and digital platforms.',
     logo: FOKUS
   },
   {
-    company: 'Vice President of Student Council',
-    position: 'Organisasi Siswa Intra Sekolah SMKN 13 Bandung',
+    company: 'Vice President',
+    position: 'Student Council SMKN 13 Bandung',
     period: 'Nov 2022 - Nov 2023',
     description: 'Led student council operations and organized school events.',
     logo: OSIS13

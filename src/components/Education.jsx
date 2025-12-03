@@ -4,17 +4,17 @@ import SMKN13 from '../assets/img/instansi/smkn13.png';
 
 const educationData = [
   {
-    degree: 'Sarjana Informatika',
+    degree: 'Bachelor of Informatics',
     school: 'International Women University',
-    period: 'Oktober 2024 - Sekarang',
+    period: 'October 2024 - Present',
     periodBadge: 'Ongoing',
     description: 'Pursuing a Bachelor\'s degree in Computer Science at International Women University',
     logo: IWU
   },
   {
-    degree: 'Teknik Komputer dan Jaringan',
+    degree: 'Computer and Network Engineering',
     school: 'SMKN 13 Bandung',
-    period: 'Juli 2021 - Mei 2024',
+    period: 'July 2021 - May 2024',
     periodBadge: 'Completed',
     description: 'Graduated with a degree in Computer and Network Engineering',
     logo: SMKN13
@@ -27,7 +27,7 @@ export default function Education() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">PENDIDIKAN</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">EDUCATION</h2>
           <p className="text-lg text-gray-600">
             My educational background and qualifications
           </p>
