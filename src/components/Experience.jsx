@@ -1,15 +1,24 @@
 import { Briefcase, Calendar, Users } from 'lucide-react';
 import PTNexa from '../assets/img/instansi/pt_nexa.png';
 import FIKTelU from '../assets/img/instansi/fik_telu.png';
+import JokiProyek from '../assets/img/instansi/joki_proyek.png';
 import OSIS13 from '../assets/img/instansi/osis_smkn13.png';
 import FOKUS from '../assets/img/instansi/fokus.png';
 import ProdiInformatika from '../assets/img/instansi/prodi_informatika.png';
 import BEMIWU from '../assets/img/instansi/bem_iwu.png';
 import SMKN13 from '../assets/img/instansi/smkn13.png';
 import HIMAIF from '../assets/img/instansi/hima_if.png';
+import SOWU from '../assets/img/instansi/sowu.png';
 
 // Import or use placeholder logo URLs
 const workExperienceData = [
+      {
+    company: 'Joki Proyek',
+    position: 'Freelance Full Stack Developer',
+    period: 'Desember 2025 - Present',
+    description: 'Freelance fullstack developer at Joki Proyek, building web applications and handling both frontend and backend development.',
+    logo: JokiProyek
+  },
   {
     company: 'PT Nexa Media Pratama',
     position: 'Programmer',
@@ -27,6 +36,13 @@ const workExperienceData = [
 ];
 
 const organizationExperienceData = [
+    {
+    company: 'Sound Of IWU',
+    position: 'President',
+    period: 'Febuari 2026 - Present | Bandung, Indonesia',
+    description: 'Led the university choir organization as head, managing activities, coordinating members, and organizing performances.',
+    logo: SOWU
+  },
   {
     company: 'Technology Research Division',
     position: 'HIMA IF Intern',

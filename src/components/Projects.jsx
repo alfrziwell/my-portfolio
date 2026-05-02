@@ -99,7 +99,56 @@ import PublishMULYAJAYA3 from '../assets/img/projects/publish-project/mulya/3.pn
 import PublishMULYAJAYA4 from '../assets/img/projects/publish-project/mulya/4.png';
 import PublishMULYAJAYA5 from '../assets/img/projects/publish-project/mulya/5.png';
 
+// PT Wisang Utama Mandiri COMPANY PROFILE IMAGES
+import PublishCPWISANG1 from '../assets/img/projects/publish-project/company-profile-wisang/1.png';
+import PublishCPWISANG2 from '../assets/img/projects/publish-project/company-profile-wisang/2.png';
+import PublishCPWISANG3 from '../assets/img/projects/publish-project/company-profile-wisang/3.png';
+import PublishCPWISANG4 from '../assets/img/projects/publish-project/company-profile-wisang/4.png';
+import PublishCPWISANG5 from '../assets/img/projects/publish-project/company-profile-wisang/5.png';
+import PublishCPWISANG6 from '../assets/img/projects/publish-project/company-profile-wisang/6.png';
+
+// RMP Jaya Lestari IMAGES
+import PublishRMPJAYA1 from '../assets/img/projects/publish-project/rmp-jaya-lestari/1.png';
+import PublishRMPJAYA2 from '../assets/img/projects/publish-project/rmp-jaya-lestari/2.png';
+import PublishRMPJAYA3 from '../assets/img/projects/publish-project/rmp-jaya-lestari/3.png';
+import PublishRMPJAYA4 from '../assets/img/projects/publish-project/rmp-jaya-lestari/4.png';
+import PublishRMPJAYA5 from '../assets/img/projects/publish-project/rmp-jaya-lestari/5.png';
+import PublishRMPJAYA6 from '../assets/img/projects/publish-project/rmp-jaya-lestari/6.png';
+import PublishRMPJAYA7 from '../assets/img/projects/publish-project/rmp-jaya-lestari/7.png';
+
+
 const publishedProjectsData = [
+  {
+    title: 'PT RMP Jaya Lestari Website',
+    description: 'Developed a company profile and registration system for RMP Jaya Lestari. The platform integrates WhatsApp notifications using Fontee, automatically sending alerts to the admin for every new registration, enabling faster response and efficient communication management. ',
+    technologies: ['React JS', 'Laravel', 'MySQL', 'Tailwind CSS', 'Framer Motion','Fontee API'],
+    images: [
+      PublishRMPJAYA1,
+      PublishRMPJAYA2,
+      PublishRMPJAYA3,
+      PublishRMPJAYA4,
+      PublishRMPJAYA5,
+      PublishRMPJAYA6,
+      PublishRMPJAYA7
+    ],
+    type: 'Web App',
+    link: 'https://rmpjayalestari.com/'
+  },
+  {
+    title: 'Company Profile PT Wisang Utama Mandiri',
+    description: 'Developed a corporate website for PT Wisang Utama Mandiri, a mechanical and electrical engineering company. The platform includes a dynamic admin dashboard that enables content management for the company profile, services, and project portfolio, ensuring easy updates and efficient digital presence management. ',
+    technologies: ['Laravel', 'MySQL', 'Tailwind CSS', 'Auth Sanctum', 'Framer Motion', 'React', 'JavaScript'],
+    images: [
+      PublishCPWISANG1,
+      PublishCPWISANG2,
+      PublishCPWISANG3,
+      PublishCPWISANG4,
+      PublishCPWISANG5,
+      PublishCPWISANG6
+    ],
+    type: 'Web App',
+    link: 'https://ptwisangutamamandiri.com/'
+  },
   {
     title: '3Treesify',
     description: 'Developed a website for 3Treesify, a blockchain-based conservation platform. The site presents 3Treesify’s mission, environmental initiatives, and facilitates membership engagement and impact reporting.',
